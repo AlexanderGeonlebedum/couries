@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Couries</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+
+    <!--    Navigation-->
+    <string name="menu_client">Client</string>
+    <string name="menu_product">Product</string>
+    <string name="menu_order">Orders</string>
+
+    <!--For Buttons-->
+    <string name="action_addClient">Add Client</string>
+    <string name="action_client">Clients</string>
+
+    <!--Menus-->
+    <string name="menu_addLocation">Add Location</string>
+    <string name="menu_addClient">Add Client</string>
+    <string name="menu_addProduct">Add Product</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_cancel">Cancel</string>
+
+<!--    For the newClient page-->
+    <string name="client_title">New Client Page</string>
+    <string name="client_name">Client Name</string>
+    <string name="client_address">Client Address</string>
+    <string name="client_number">Client Phone Number</string>
+    <string name="client_button">Add Client</string>
+    <string name="newClientPage">New Client</string>
+
+
+    <string name="couriesError">Couries Error</string>
+
+
+
+
+
+<!--For the newLocation page-->
+    <string name="newLocationPage">New Location</string>
+
+<!--    For the order page-->
+    <string name="noOrder">No Order Listed</string>
+
+<!--    For the client Page-->
+    <string name="noClient">Add Your Clients</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

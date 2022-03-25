@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="org.wit.couries.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+        <action
+            android:id="@+id/action_nav_home_to_nav_newLocation"
+            app:destination="@id/nav_newLocation" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_client"
+        android:name="org.wit.couries.ui.client.ClientFragment"
+        android:label="@string/menu_client"
+        tools:layout="@layout/fragment_client">
+        <action
+            android:id="@+id/action_nav_client_to_nav_newClient"
+            app:destination="@id/nav_newClient" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_product"
+        android:name="org.wit.couries.ui.product.ProductFragment"
+        android:label="@string/menu_product"
+        tools:layout="@layout/fragment_product"/>
+    <fragment
+        android:id="@+id/nav_order"
+        android:name="org.wit.couries.ui.order.OrderFragment"
+        android:label="@string/menu_order"
+        tools:layout="@layout/fragment_order" />
+    <fragment
+        android:id="@+id/nav_newLocation"
+        android:name="org.wit.couries.ui.home.NewLocationFragment"
+        android:label="@string/newLocationPage"
+        tools:layout="@layout/fragment_new_location" >
+        <action
+            android:id="@+id/action_nav_newLocation_to_nav_newClient"
+            app:destination="@id/nav_newClient" />
+        <action
+            android:id="@+id/action_nav_newLocation_to_nav_client"
+            app:destination="@id/nav_client" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_newClient"
+        android:name="org.wit.couries.ui.client.NewClientFragment"
+        android:label="@string/newClientPage"
+        tools:layout="@layout/fragment_new_client" />
+</navigation>
